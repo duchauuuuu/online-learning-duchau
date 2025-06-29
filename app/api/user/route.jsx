@@ -1,3 +1,4 @@
+import { db } from "@/config/db";
 import { usersTable } from "@/config/schema";
 import { eq } from "drizzle-orm";
 import { NextResponse } from "next/server";
